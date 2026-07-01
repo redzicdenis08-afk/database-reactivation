@@ -1,0 +1,36 @@
+[
+  {
+    "lead_id": "L-1001",
+    "call_id": "call-8801",
+    "at": "2026-07-02T15:05:00Z",
+    "transcript": [
+      { "role": "agent", "text": "Hi, this is the assistant for Acme HVAC calling about your system." },
+      { "role": "customer", "text": "Oh right, we used you two summers ago." },
+      { "role": "agent", "text": "We have an opening for a tune-up this week, would that help?" },
+      { "role": "customer", "text": "How much would it cost? Actually you know what, that time works, book me in." }
+    ]
+  },
+  {
+    "lead_id": "L-1002",
+    "call_id": "call-8802",
+    "at": "2026-07-02T15:20:00Z",
+    "transcript": [
+      { "role": "customer", "text": "You've reached James. Please leave a message after the tone." }
+    ]
+  },
+  {
+    "lead_id": "L-1003",
+    "call_id": "call-8803",
+    "at": "2026-07-02T16:10:00Z",
+    "transcript": [
+      { "role": "agent", "text": "Hi, calling from Acme Roofing about the estimate you asked for last fall." },
+      { "role": "customer", "text": "No thanks. Please take me off your list and do not call this number again." }
+    ]
+  },
+  {
+    "lead_id": "L-1005",
+    "call_id": "call-8804",
+    "at": "2026-07-02T16:30:00Z",
+    "outcome": "no_answer"
+  }
+]

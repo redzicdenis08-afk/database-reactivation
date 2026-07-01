@@ -1,0 +1,15 @@
+{
+  "campaign_timezone": "America/New_York",
+  "window_start_hour": 9,
+  "window_end_hour": 18,
+  "slot_minutes": 15,
+  "daily_cap": 25,
+  "max_attempts": 4,
+  "horizon_days": 3,
+  "cooldown_hours": {
+    "no_answer": 4,
+    "voicemail": 24,
+    "failed": 24,
+    "reached": 72
+  }
+}

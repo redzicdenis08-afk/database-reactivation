@@ -1,0 +1,100 @@
+[
+  {
+    "lead_id": "L-1001",
+    "name": "Maria Alvarez",
+    "phone": "+1-555-0101",
+    "timezone": "America/New_York",
+    "last_contact": "2026-04-20",
+    "prior_jobs": 2,
+    "responded_before": true,
+    "inbound_inquiry": false,
+    "job_value_band": "high",
+    "service": "hvac"
+  },
+  {
+    "lead_id": "L-1002",
+    "name": "James Okafor",
+    "phone": "+1-555-0102",
+    "timezone": "America/Chicago",
+    "last_contact": "2026-01-15",
+    "prior_jobs": 1,
+    "responded_before": false,
+    "inbound_inquiry": false,
+    "job_value_band": "mid",
+    "service": "hvac"
+  },
+  {
+    "lead_id": "L-1003",
+    "name": "Sandra Lee",
+    "phone": "+1-555-0103",
+    "timezone": "America/Los_Angeles",
+    "last_contact": "2025-11-02",
+    "prior_jobs": 0,
+    "responded_before": false,
+    "inbound_inquiry": true,
+    "job_value_band": "high",
+    "service": "roofing"
+  },
+  {
+    "lead_id": "L-1004",
+    "name": "Bill Turner",
+    "phone": "+1-555-0104",
+    "timezone": "",
+    "last_contact": "2024-05-10",
+    "prior_jobs": 3,
+    "responded_before": true,
+    "inbound_inquiry": false,
+    "job_value_band": "mid",
+    "service": "plumbing"
+  },
+  {
+    "lead_id": "L-1005",
+    "name": "Dana White",
+    "phone": "+1-555-0105",
+    "timezone": "America/Denver",
+    "last_contact": "2026-06-20",
+    "prior_jobs": 0,
+    "responded_before": false,
+    "inbound_inquiry": false,
+    "job_value_band": "high",
+    "service": "hvac"
+  },
+  {
+    "lead_id": "L-1006",
+    "name": "Ahmed Hassan",
+    "phone": "+1-555-0106",
+    "timezone": "America/Phoenix",
+    "last_contact": "2026-02-01",
+    "prior_jobs": 1,
+    "responded_before": false,
+    "inbound_inquiry": true,
+    "job_value_band": "low",
+    "service": "landscaping"
+  },
+  {
+    "lead_id": "L-1007",
+    "name": "Grace Kim",
+    "phone": "+1-555-0107",
+    "timezone": "America/New_York",
+    "last_contact": "2026-03-01",
+    "prior_jobs": 1,
+    "responded_before": false,
+    "inbound_inquiry": false,
+    "job_value_band": "mid",
+    "service": "gutters"
+  },
+  {
+    "lead_id": "L-1008",
+    "name": "Tom Nowak",
+    "phone": "+1-555-0108",
+    "timezone": "America/Chicago",
+    "last_contact": "2026-02-14",
+    "prior_jobs": 0,
+    "responded_before": false,
+    "inbound_inquiry": false,
+    "job_value_band": "low",
+    "service": "hvac",
+    "state": "opted_out",
+    "attempts": 2
+  }
+]

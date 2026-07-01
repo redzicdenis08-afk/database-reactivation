@@ -1,0 +1,52 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dbreactivation"
+version = "0.1.0"
+description = "Win-back engine for dormant leads: explainable ranking, compliance-first call scheduling, lifecycle state machine, and outcome intake."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [{ name = "Denis Redzic" }]
+keywords = [
+    "database-reactivation",
+    "lead-reactivation",
+    "outbound-calling",
+    "call-scheduling",
+    "tcpa",
+    "dnc",
+    "voice-ai",
+    "crm",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Communications :: Telephony",
+    "Topic :: Office/Business",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.4"]
+
+[project.scripts]
+dbreactivation = "dbreactivation.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/redzicdenis08-afk/database-reactivation"
+Issues = "https://github.com/redzicdenis08-afk/database-reactivation/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["dbreactivation"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

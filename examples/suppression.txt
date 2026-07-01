@@ -1,0 +1,3 @@
+# Permanent do-not-call list — one number per line.
+# Numbers are matched on their last 10 digits, any formatting accepted.
++1-555-0107  # asked to be removed during the 2025 campaign
