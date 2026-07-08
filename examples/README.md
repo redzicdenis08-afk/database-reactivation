@@ -1,20 +1,21 @@
 ﻿# Examples
 
-Sample data for testing the database reactivation engine.
+Sample ad creative data for testing Adoracle scoring.
 
-## leads.csv
+## sample_ads.json
 
-A fictional batch of 5 dormant leads. Note lead-004 has opt_out=true
-and should be excluded from all outreach.
+Three fictional ads across Facebook, Google, and LinkedIn with impression/click/spend data.
 
-## Run ranking
+## Run
 
 `ash
-python -m dbreactivation rank examples/leads.csv --output ranked.csv
+npx adoracle batch examples/sample_ads.json --output csv
 `
 
-## Expected top-3 ranking order
+## Expected hook angles detected
 
-1. Carol White (score ~88) - recent + frequent + high value
-2. Eve Davis (score ~76) - recent, frequent
-3. Alice Smith (score ~61) - moderate on all dimensions
+| id | hooks |
+|---|---|
+| ad-001 | pain, social_proof |
+| ad-002 | authority, transformation |
+| ad-003 | scarcity |

@@ -1,0 +1,32 @@
+﻿[
+  {
+    "id": "ad-001",
+    "headline": "Stop Wasting Money on Ads That Don't Convert",
+    "body": "Join 2,000+ founders who use Adoracle to spy on winning competitor ads before spending a dollar.",
+    "cta": "Start Free Trial",
+    "platform": "facebook",
+    "impressions": 45000,
+    "clicks": 1890,
+    "spend": 420
+  },
+  {
+    "id": "ad-002",
+    "headline": "The #1 Mistake HVAC Companies Make with Google Ads",
+    "body": "We analyzed 500 campaigns. This single fix increased booked jobs by 34%.",
+    "cta": "See the Fix",
+    "platform": "google",
+    "impressions": 12000,
+    "clicks": 890,
+    "spend": 180
+  },
+  {
+    "id": "ad-003",
+    "headline": "Limited: 3 Free Ad Audits This Week",
+    "body": "Our team will review your current ads and tell you exactly what to change. No pitch, just insights.",
+    "cta": "Claim Your Audit",
+    "platform": "linkedin",
+    "impressions": 8000,
+    "clicks": 640,
+    "spend": 95
+  }
+]
