@@ -1,0 +1,6 @@
+﻿id,name,phone,last_contact_days,prior_contacts,estimated_value,opt_out
+lead-001,Alice Smith,+15550001111,45,3,2500,false
+lead-002,Bob Jones,+15550002222,180,1,800,false
+lead-003,Carol White,+15550003333,12,5,4200,false
+lead-004,Dave Brown,+15550004444,90,2,1500,true
+lead-005,Eve Davis,+15550005555,30,4,3100,false
